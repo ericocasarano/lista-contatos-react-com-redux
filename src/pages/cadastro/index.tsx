@@ -1,10 +1,8 @@
-import BarraLateral from '../../containers/BarraLateral'
-import Formulario from '../../containers/Formulario'
+import NovoContato from '../../containers/NovoContato/inde'
 
 const Cadastro = () => (
   <>
-    <BarraLateral mostrarFiltro={false} />
-    <Formulario />
+    <NovoContato />
   </>
 )
 
